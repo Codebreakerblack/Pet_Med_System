@@ -1,11 +1,9 @@
 package dev.mariel.Pet_Med_System.DTO;
 
-import java.time.LocalDate;
-
 public class TreatmentResponseDTO {
     private Long id;
     private String descriptionTreatment;
-    private LocalDate date;
+    private String date;
 
     public Long getId() {
         return id;
@@ -23,11 +21,11 @@ public class TreatmentResponseDTO {
         this.descriptionTreatment = descriptionTreatment;
     }
 
-    public LocalDate getDate() {
+    public String getDate() {
         return date;
     }
 
-    public void setDate(LocalDate date) {
+    public void setDate(String date) {
         this.date = date;
     }
 }

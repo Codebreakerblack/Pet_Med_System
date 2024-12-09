@@ -9,6 +9,7 @@ public class PatientResponseDTO {
     private String identificationNumber;
     private String ownerName;
     private String ownerPhone;
+    
     public Long getId() {
         return id;
     }
